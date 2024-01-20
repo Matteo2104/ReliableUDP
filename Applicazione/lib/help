@@ -1,1 +1,11 @@
+Elenco dei comandi:
 
+- help : stampa l'elenco dei comandi
+
+- list <numero_pagina> : stampa l'elenco alla pagina <numero_pagina> dei file presenti nel server. Se passato senza parametro, restituisce la prima pagina se è l'unica, oppure errore se non è l'unica
+
+- get <nomefile.ext> : scarica il file <nomefile.ext> in locale
+
+- put <nomefile.ext> : carica il file <nomefile.ext> sul server
+
+- quit : chiude il programma
